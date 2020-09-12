@@ -1,5 +1,6 @@
 var name = "Thais Wemberlaine Dias Machado Rocha";
-alert ("Página desenvolvida por " + name);
+var d = new Date();
+alert ("Página desenvolvida por " + name + " Horário local: " + (d.getHours()) + ":" + (d.getMinutes()));
 
 function clicou() {
     alert("Obrigada por clicar");
@@ -15,4 +16,3 @@ function trocar() {
 function redirecionar() {
     window.open("https://github.com/ThWember/");
 }
-
